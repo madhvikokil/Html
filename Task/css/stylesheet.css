@@ -1,0 +1,30 @@
+body{
+        background-color:ghostwhite
+}
+
+h1{
+        font-family:serif;
+        background-color:black;
+}
+h1{
+        background-color: palevioletred;
+}
+
+h3{
+        background-color:palegreen;
+}
+ul li{
+    background-color:gold;
+    font-family:"monospace";
+    margin:"3px";
+    padding:"4px";
+}
+#but {
+        position:"fixed";
+        top:"50px";
+        left:"20px";
+}
+
+.display{
+        font-family:"serif";
+}
