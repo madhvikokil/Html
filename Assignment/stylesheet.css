@@ -87,19 +87,15 @@ pre{
 
 .section2 .container{
     width:100%;
-   
     background-color:#ebecf2;
+    height:200px;
 }
-
-.section2 .container div{
-    display:inline-block;
-}
-
 .container .part2{
     margin-top:2x;
     padding-left:10px;
     padding-top:10px;
-    width:100%;
+    width:1188px;
+    height:140px;
 }
 
 .box{
@@ -108,6 +104,7 @@ pre{
     height:112px;
     color:white;
     margin:10px;
+    float:left;
    
 }
 .box h4{
@@ -130,7 +127,7 @@ pre{
 } 
 .box-left{
     height:112px;
-    width:174px;
+    width:177px;
 }
 
 .box-right{
@@ -138,6 +135,8 @@ pre{
     width:92px;
     background-color:#f1b606; 
     padding-top:27px;
+    float:right;
+    margin-top:-112px;
 }
 
 .box-right img{
@@ -151,6 +150,7 @@ pre{
     height:112px;
     color:white;
     margin:10px;
+    float:left;
     
 }
 
@@ -165,6 +165,7 @@ pre{
     padding-top:20px;
     padding-left:20px;
     font-style:bold;
+    height:69px;
     font-size:20px;
     font-family:QUICKSAND;
 }
@@ -179,6 +180,9 @@ pre{
     width:92px;
     background-color:#dc1c5d; 
     padding-top:27px;
+    float:right;
+    margin-top:-112px;
+    
 }
 
 .box2-right img{
@@ -192,6 +196,7 @@ pre{
     color:white;
     margin:10px;
     font-family:QUICKSAND;
+    float:left;
 }
 
 .box3 h4{
@@ -218,6 +223,7 @@ pre{
     background-color:#83b845; 
     padding-top:27px;
     float:right;
+    margin-top:-112px;
 }
 
 .box3-right img{
@@ -231,6 +237,7 @@ pre{
     color:white;
     margin:10px;
     font-family:QUICKSAND;
+    float:left;
 }
 
 .box4 h4{
@@ -257,6 +264,7 @@ pre{
     background-color:#1e8de6; 
     padding-top:27px;
     float:right;
+    margin-top:-112px;
 }
 
 .box4-right img{
@@ -267,19 +275,15 @@ pre{
 
 .section3 .container{
     width:100%;
-
     padding-top:10px;
     background-color:#ebecf2;
     margin-top:12px;
 }
-.section3 .container div{
-    display:inline-block;
-}
+
 .container .part3{
     margin-top:10px;
     padding-left:10px;
     padding-top:10px;
-    
     width:100%;
 }
 .part3 h2{
@@ -287,30 +291,26 @@ pre{
     padding-bottom:5px;
 }
 
-.section3 .container div{
-    display:inline-block;
-    float:left;
-    
-}
 
 .secondbox{
-    height:225px;
-    width:260px;
+    height:272px;
+    width:272px;
     background-color:#ffffff;
     color:black;
-    margin-left:20px;
+    margin-left:10px;
+    float:left;
 }
 
 .boxb1{
     height:179px;
-    width:260px;
+    width:271px;
     border-bottom:2px solid #ebecf2;
 }
 
 .boxb2{
 
     height:179px;
-    width:260px;
+    width:271px;
     border-bottom:2px solid #ebecf2;
     
 }
@@ -318,7 +318,7 @@ pre{
 .circle1outer{
     border-radius:50%;
     background-color:#8ac249;
-    margin:26px 73px 34px 77px;
+    margin:40px 73px 34px 77px;
     width:112px;
     height:112px;
     border-width:100px;
@@ -328,7 +328,7 @@ pre{
     border-radius:50%;
     margin:8px -10px 25px 6px;
     background-color:#f6efd2;
-    height:95px;
+    height:105px;
     width:100px;
     border-width:2px;
 }
@@ -336,7 +336,7 @@ pre{
 .percent1{
     text-align:center;
     font-size:30px;
-    margin:20px 26px 30px 24px;
+    padding-top:20px;
     font-family:QUICKSAND;
 }
 
@@ -352,6 +352,11 @@ pre{
     color:grey;
     font-size:30px;
 }
+.circledown{
+    height:20px;
+}
+
+
 
 
 /*#milestone{
@@ -362,17 +367,18 @@ pre{
     margin:20px;
 }
 .secondbox2{
-    height:225px;
-    width:260px;
+    height:272px;
+    width:272px;
     background-color:#ffffff;
     color:black;
-    margin-left:35px;
+    margin-left:20px;
+    float:left;
 }
 
 .circle2outer{
     border-radius:50%;
     background-color:#fec006;
-    margin:26px 73px 34px 77px;
+    margin:40px 73px 34px 77px;
     width:112px;
     height:112px;
     border-width:100px;
@@ -382,7 +388,7 @@ pre{
     border-radius:50%;
     margin:8px -10px 25px 6px;
     background-color:#f6efd2;
-    height:95px;
+    height:105px;
     width:100px;
     border-width:2px;
 }
@@ -390,16 +396,17 @@ pre{
 .percent2{
     text-align:center;
     font-size:30px;
-    margin:20px 33px 18px 32px;
+    padding-top:20px;
     font-family:QUICKSAND;
 }
 
 .secondbox3{
-    height:225px;
-    width:260px;
+    height:272px;
+    width:272px;
     background-color:#ffffff;
     color:black;
-    margin-left:35px;
+    margin-left:20px;
+    float:left;
 }
 
 .circledown2 li{
@@ -418,7 +425,7 @@ pre{
 .circle3outer{
     border-radius:50%;
     background-color:#f5f5f5;
-    margin:26px 73px 34px 77px;
+    margin:40px 73px 34px 77px;
     width:112px;
     height:112px;
     border-width:100px;
@@ -428,7 +435,7 @@ pre{
     border-radius:50%;
     margin:8px -10px 25px 6px;
     background-color:#f6efd2;
-    height:95px;
+    height:105px;
     width:100px;
     border-width:2px;
 }
@@ -436,7 +443,7 @@ pre{
 .percent3{
     text-align:center;
     font-size:30px;
-    margin:20px 30px 15px 35px;
+    padding-top:20px;
     font-family:QUICKSAND;
 }
 
@@ -456,17 +463,18 @@ pre{
 
 .secondbox4{
     
-    height:225px;
-    width:260px;
+    height:272px;
+    width:272px;
     background-color:#ffffff;
     color:black;
-    margin-left:35px;
+    margin-left:20px;
+    float:left;
 }
 
 .circle4outer{
     border-radius:50%;
     background-color:#f5f5f5;
-    margin:26px 73px 34px 77px;
+    margin:40px 73px 34px 77px;
     width:112px;
     height:112px;
     border-width:100px;
@@ -484,7 +492,7 @@ pre{
 .percent4{
     text-align:center;
     font-size:30px;
-    margin:20px 30px 15px 36px;
+    padding-top:20px;
     font-family:QUICKSAND;
 }
 
@@ -515,6 +523,8 @@ pre{
     margin-left:20px;
     margin-right:-45px;
     top:20px;
+    text-align:center;
+    color:white;
 }
 
 
@@ -547,7 +557,7 @@ pre{
 
 .section3 .container{
     width:100%;
-    height:320px;
+    height:340px;
     padding-top:10px;
     background-color:#ebecf2;
     margin-top:12px;
@@ -556,7 +566,7 @@ pre{
     margin-top:10px;
     padding-left:10px;
    
-    height:250px;
+    height:270px;
     width:100%;
 }
 
@@ -607,8 +617,8 @@ pre{
 .w3-light-grey{
     color:white!important;
     background-color:#f5f5f5!important;
-    width:98%;
-    margin-left:10px;
+    width:96%;
+    margin-left:18px;
 }
 
 .w3-round-xlarge{
@@ -630,26 +640,26 @@ pre{
 
 /* w4 starts here */
 
-.w4-light-grey{
-    color:#e1e2e6!important;
-    background-color:#e1e2e6!important;
+.bar-light-grey{
+    color:#e1e2e6;
+    background-color:#e1e2e6;
     width:100%;
-    height:31%
+    height:0.70em;
 }
 
-.w4-round-xlarge{
+.bar-round-xlarge{
     border-radius:16px;
 }
 
-.w4-container{
-    padding:0.5em 16px;
+.bar-container{
+    padding:0.33em 16px;
     position:relative;
 }
 
-.w4-blue{
-    color:#5fccc1!important;
-    background-color:#5fccc1!important;
-    height:10%
+.bar-blue{
+    color:#5fccc1;
+    background-color:#5fccc1;;
+    height:0.02em;
 }
 
 .section4 .container{
@@ -669,6 +679,7 @@ pre{
     padding-top:30px;
     width:107%;
     padding-left:10px;
+    height:395px;
 }
 
 #space2{
@@ -678,13 +689,15 @@ pre{
     height:340px;
     width:50%;
     background-color:whitesmoke;
+    margin-left:12px;
 }
 
 .block2{
     
     height:340px;
-    width:45%;
+    width:43%;
     background-color:whitesmoke;
+    margin-left:12px;
 }
 
 .block1 p{
@@ -800,6 +813,7 @@ footer{
 footer p{
     padding-top:10px;
     font-size:10px;
+    padding-right:10px;
 }
 
 hr{
@@ -972,9 +986,6 @@ ul li{
     display:inline;
 }
 
-img{
-    padding-left:5px;
-}
 
 .dollor{
     width:95px;
