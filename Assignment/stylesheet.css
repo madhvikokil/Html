@@ -17,7 +17,8 @@ header .container{
 
 header .part1{
    
-    width:100%;
+    width:1200px;
+    height:60px;
 }
 
 header .part1 div{
@@ -26,33 +27,43 @@ header .part1 div{
 .part1-left{
     
     width:300px;
+    height:60px;
 }
 
 .part1-right{
-    
-    width:40%;
+   
     float:right;
+   
 }
 
 #logo-menu{
-    margin:20px;
-    margin-top:20px;
+    margin-top:9px;
     display:inline-block;
+    margin-left:24px;
 }
 
+.menu-icon{
+    padding-bottom: 11px;
+    padding-left: 60px;
+}
 #other-logo{
     display:inline-block;
     margin-top:20px;
 }
 
-#backstyle{
-    background-color:#4a5b68;
+.backstyle{
+    background-color:grey;
     height:10px;
     width:10px;
     padding-left:10px;
     padding-top:14px;
-    padding-bottom:10px;
+    padding-bottom:6px;
     padding-right:10px;
+    margin-right:24px;
+}
+
+a.backstyle:hover{
+    background-color:#384B59;
 }
 
 .header1{
@@ -68,14 +79,13 @@ header .part1 div{
 }
 .header2{
     list-style-type:none;
-    margin:30px;
+    margin-top:16px;
     text-align: right;
     
 }
 .header2 li{
     display:inline;
-    padding-left:20px;
-    padding-top:60px;
+    
 }
 
 pre{
@@ -88,22 +98,21 @@ pre{
 .section2 .container{
     width:100%;
     background-color:#ebecf2;
-    height:200px;
+    height:206px;
 }
 .container .part2{
-    margin-top:2x;
-    padding-left:10px;
-    padding-top:10px;
+    
+    padding-top:36px;
     width:1188px;
-    height:140px;
+    height:113px;
 }
 
 .box{
     background-color:#fec006;
     width: 270px;
-    height:112px;
+    height:110px;
     color:white;
-    margin:10px;
+    margin-left:24px;
     float:left;
    
 }
@@ -112,9 +121,10 @@ pre{
     padding-left:20px;
     width:132px;
     height:38px;
-    width:30%;
+    
     color:white;
     font-family:QUICKSAND;
+    font-size:16px;
 }
 
 .box p{
@@ -122,7 +132,7 @@ pre{
     width:130px;
     height:69px;
     font-style:bold;
-    font-size:20px;
+    font-size:30px;
     font-family:QUICKSAND;
 } 
 .box-left{
@@ -131,25 +141,24 @@ pre{
 }
 
 .box-right{
-    height:84px;
-    width:92px;
+    height:110px;
+    width:90px;
     background-color:#f1b606; 
-    padding-top:27px;
     float:right;
     margin-top:-112px;
 }
 
 .box-right img{
-    padding-left:20px;
+    margin:32px 23px;
 }
 
 
 .box2{
     background-color:#e81d62;
     width: 270px;
-    height:112px;
+    height:110px;
     color:white;
-    margin:10px;
+    margin-left:24px;
     float:left;
     
 }
@@ -159,6 +168,7 @@ pre{
     padding-left:20px;
     width:30%;
     font-family:QUICKSAND;
+    font-size:16px;
 }
 
 .box2 p{
@@ -166,7 +176,7 @@ pre{
     padding-left:20px;
     font-style:bold;
     height:69px;
-    font-size:20px;
+    font-size:30px;
     font-family:QUICKSAND;
 }
 
@@ -176,8 +186,8 @@ pre{
 }
 
 .box2-right{
-    height:84px;
-    width:92px;
+    height:83px;
+    width:90px;
     background-color:#dc1c5d; 
     padding-top:27px;
     float:right;
@@ -192,9 +202,9 @@ pre{
 .box3{
     background-color:#8ac249;
     width: 270px;
-    height:112px;
+    height:110px;
     color:white;
-    margin:10px;
+    margin-left:24px;
     font-family:QUICKSAND;
     float:left;
 }
@@ -203,13 +213,14 @@ pre{
     padding-top:20px;
     padding-left:20px;
     width:30%;
+    font-size:16px;
 }
 
 .box3 p{
     padding-top:20px;
     padding-left:20px;
     font-style:bold;
-    font-size:20px;
+    font-size:30px;
 }
 
 .box3-left{
@@ -218,8 +229,8 @@ pre{
 }
 
 .box3-right{
-    height:84px;
-    width:92px;
+    height:83px;
+    width:90px;
     background-color:#83b845; 
     padding-top:27px;
     float:right;
@@ -233,9 +244,9 @@ pre{
 .box4{
     background-color:#2095f2;
     width: 270px;
-    height:112px;
+    height:110px;
     color:white;
-    margin:10px;
+    margin-left:24px;
     font-family:QUICKSAND;
     float:left;
 }
@@ -244,13 +255,14 @@ pre{
     padding-top:20px;
     padding-left:20px;
     width:30%;
+    font-size:16px;
 }
 
 .box4 p{
     padding-top:20px;
     padding-left:20px;
     font-style:bold;
-    font-size:20px;
+    font-size:30px;
 }
 
 .box4-left{
@@ -259,8 +271,8 @@ pre{
 }
 
 .box4-right{
-    height:84px;
-    width:92px;
+    height:83px;
+    width:90px;
     background-color:#1e8de6; 
     padding-top:27px;
     float:right;
@@ -280,37 +292,35 @@ pre{
     margin-top:12px;
 }
 
-.container .part3{
-    margin-top:10px;
-    padding-left:10px;
-    padding-top:10px;
-    width:100%;
-}
+
 .part3 h2{
     margin:0 auto;
     padding-bottom:5px;
 }
 
+/* Box 1 */
 
 .secondbox{
-    height:272px;
-    width:272px;
+    height:225px;
+    width:270px;
     background-color:#ffffff;
     color:black;
-    margin-left:10px;
+    margin-left:24px;
     float:left;
 }
 
 .boxb1{
-    height:179px;
-    width:271px;
+    height:136px;
+    width:270px;
     border-bottom:2px solid #ebecf2;
+    margin:0 auto;
+    padding:28px 0px 0px 0px;
 }
 
 .boxb2{
 
-    height:179px;
-    width:271px;
+    height:166px;
+    width:270px;
     border-bottom:2px solid #ebecf2;
     
 }
@@ -318,19 +328,21 @@ pre{
 .circle1outer{
     border-radius:50%;
     background-color:#8ac249;
-    margin:40px 73px 34px 77px;
-    width:112px;
-    height:112px;
-    border-width:100px;
+    width:111px;
+    height:111px;
+    margin:0 auto;
+
 }
 
 .circle1inner{
     border-radius:50%;
     margin:8px -10px 25px 6px;
     background-color:#f6efd2;
-    height:105px;
-    width:100px;
+    height:91px;
+    width:91px;
     border-width:2px;
+    margin:9px 9px;
+    display:inline-block;
 }
 
 .percent1{
@@ -340,95 +352,95 @@ pre{
     font-family:QUICKSAND;
 }
 
+.percent-sign{
+    font-size:16px;
+    font-family:QUICKSAND;
+}
 
-.circledown li{
-    display:inline;
-   padding-top:10px;
-   padding-left:55px;
-
+.circledown1{
+    width:270px;
+    height:59px;
 }
 
 .circledown11{
-    color:grey;
-    font-size:30px;
+    color:#e1e2e9;
+    font-weight:bold;
+    font-size:34px;
+    float:right;
+    padding:14px 10px 0px 0px;
+    font-family:QUICKSAND;
+    font-style:bold;
 }
-.circledown{
-    height:20px;
+
+
+.milestone{
+    font-family:LATO;
+    font-size:16px;
+    text-align:center;
+    padding-top:22px;
 }
 
+/* Box 2 */
 
-
-
-/*#milestone{
-    text-align:lest;
-}*/
-
-#space{
-    margin:20px;
-}
 .secondbox2{
-    height:272px;
-    width:272px;
+    height:225px;
+    width:270px;
     background-color:#ffffff;
     color:black;
-    margin-left:20px;
+    margin-left:24px;
     float:left;
 }
 
 .circle2outer{
     border-radius:50%;
     background-color:#fec006;
-    margin:40px 73px 34px 77px;
-    width:112px;
-    height:112px;
-    border-width:100px;
+    width:111px;
+    height:111px;
+    margin:0 auto;
 }
 
 .circle2inner{
     border-radius:50%;
     margin:8px -10px 25px 6px;
     background-color:#f6efd2;
-    height:105px;
-    width:100px;
-    border-width:2px;
+    height:101px;
+    width:91px;
+    margin:0 auto;
 }
 
-.percent2{
-    text-align:center;
-    font-size:30px;
-    padding-top:20px;
-    font-family:QUICKSAND;
-}
-
-.secondbox3{
-    height:272px;
-    width:272px;
-    background-color:#ffffff;
-    color:black;
-    margin-left:20px;
-    float:left;
-}
-
-.circledown2 li{
-    display:inline;
-   padding-top:10px;
-   padding-left:55px;
-
+.circledown2{
+    width:270px;
+    height:59px;
 }
 
 .circledown22{
-    color:grey;
-    font-size:30px;
+    color:#e1e2e9;
+    font-weight:bold;
+    font-size:34px;
+    float:right;
+    padding:14px 10px 0px 0px;
+    font-family:QUICKSAND;
+    font-style:bold;
 }
 
+
+/* Box 3 */
+
+.secondbox3{
+    height:225px;
+    width:270px;
+    background-color:#ffffff;
+    color:black;
+    margin-left:24px;
+    float:left;
+}
 
 .circle3outer{
     border-radius:50%;
     background-color:#f5f5f5;
-    margin:40px 73px 34px 77px;
-    width:112px;
-    height:112px;
-    border-width:100px;
+    margin:0 auto;
+    width:111px;
+    height:111px;
 }
 
 .circle3inner{
@@ -440,79 +452,70 @@ pre{
     border-width:2px;
 }
 
-.percent3{
-    text-align:center;
-    font-size:30px;
-    padding-top:20px;
-    font-family:QUICKSAND;
-}
 
-.circledown3 li{
-    display:inline;
-   padding-top:10px;
-   padding-left:55px;
 
+.circledown3{
+    width:270px;
+    height:59px;
 }
 
 .circledown33{
-    color:grey;
-    font-size:30px;
+    color:#e1e2e9;
+    font-weight:bold;
+    font-size:34px;
+    float:right;
+    padding:14px 10px 0px 0px;
+    font-family:QUICKSAND;
+    font-style:bold;
 }
 
-
+/* Box 4 */
 
 .secondbox4{
     
-    height:272px;
-    width:272px;
+    height:225px;
+    width:270px;
     background-color:#ffffff;
     color:black;
-    margin-left:20px;
+    margin-left:24px;
     float:left;
 }
 
 .circle4outer{
     border-radius:50%;
     background-color:#f5f5f5;
-    margin:40px 73px 34px 77px;
     width:112px;
     height:112px;
     border-width:100px;
+    margin:0 auto;
 }
 
 .circle4inner{
     border-radius:50%;
     margin:8px -10px 25px 6px;
     background-color:#f6efd2;
-    height:95px;
+    height:105px;
     width:100px;
     border-width:2px;
 }
 
-.percent4{
-    text-align:center;
-    font-size:30px;
-    padding-top:20px;
-    font-family:QUICKSAND;
+.circledown4{
+    width:270px;
+    height:59px;
 }
 
-.circledown4 li{
-    display:inline;
-   padding-top:10px;
-   padding-left:55px;
-
-}
 
 .circledown44{
-    color:grey;
-    font-size:30px;
+    color:#e1e2e9;
+    font-weight:bold;
+    font-size:34px;
+    float:right;
+    padding:14px 10px 0px 0px;
+    font-family:QUICKSAND;
+    font-style:bold;
 }
 
-
-.circledown{
-    list-style-type:none;
-    
-}
+/*4 Boxes over */
 
 .photo{
     position:absolute;
@@ -520,11 +523,12 @@ pre{
     height:20px;
     background-color: red;
     border-radius:20px;
-    margin-left:20px;
-    margin-right:-45px;
-    top:20px;
+    margin-left:13px;
+    top:6px;
     text-align:center;
     color:white;
+    font-size:16px;
+    font-family:LATO;
 }
 
 
@@ -557,17 +561,14 @@ pre{
 
 .section3 .container{
     width:100%;
-    height:340px;
+    height:307px;
     padding-top:10px;
     background-color:#ebecf2;
     margin-top:12px;
 }
 .container .part3{
-    margin-top:10px;
-    padding-left:10px;
-   
-    height:270px;
-    width:100%;
+ 
+    margin-top:21px;
 }
 
 #circle2{
@@ -618,7 +619,7 @@ pre{
     color:white!important;
     background-color:#f5f5f5!important;
     width:96%;
-    margin-left:18px;
+    margin-left:24px;
 }
 
 .w3-round-xlarge{
@@ -628,6 +629,7 @@ pre{
 
 .w3-container{
     padding:0.01em 16px;
+    margin-top:33px;
    
    
 }
@@ -652,7 +654,7 @@ pre{
 }
 
 .bar-container{
-    padding:0.33em 16px;
+    padding:0.35em 16px;
     position:relative;
 }
 
@@ -663,41 +665,33 @@ pre{
 }
 
 .section4 .container{
-    width:95%;
-
     background-color:#ebecf2;
+    margin-top:71px;
+    height:368px;
+    display:inline;
     
 }
 
-.section4 .container div{
-    display:inline-block;
-
-	
-}
-
 .container .part4{
-    padding-top:30px;
+    padding-top:71px;
     width:107%;
-    padding-left:10px;
     height:395px;
 }
-
-#space2{
-    margin:5px;
-}
 .block1{
-    height:340px;
-    width:50%;
+    height:339px;
+    width:564px;
     background-color:whitesmoke;
-    margin-left:12px;
+    margin-left:24px;
+    float:left;
 }
 
 .block2{
     
-    height:340px;
-    width:43%;
+    height:339px;
+    width:564px;
     background-color:whitesmoke;
-    margin-left:12px;
+    margin-left:24px;
+    float:left;
 }
 
 .block1 p{
@@ -727,13 +721,13 @@ h5{
 
 
 .checkbox1{
-    height:20px;
-    width:20px;
+    height:17px;
+    width:17px;
 }
 
 .table1{
-    width:100%;
-    height:100%;
+    width:564px;
+    height:339px;
     
 }
 
@@ -742,8 +736,8 @@ h5{
     border-color:#ebecf2;
 }
 .table2{
-    width:100%;
-    height:100%;
+    width:564px;
+    height:339px;
 }
 
 #row11{
@@ -768,6 +762,7 @@ h5{
 
 #more-right{
     text-align:right;
+    padding-right:30px;
   
 }
 
@@ -790,9 +785,7 @@ h5{
 #makeitcoloured{
     background-color:#c8f1cc;
     color:#4bae4f;
-    padding-left:22px;
-    padding-bottom:109px;
-    margin-top:60px;
+   
 }
 td{
     padding:15px;
@@ -803,17 +796,18 @@ td{
 
 
 footer{
-    height:60px;
-    width:100%;
+    height:44px;
+    margin-top:67px;
     background-color:grey;
     text-align:right;
     color:white;
 
 }
 footer p{
-    padding-top:10px;
+    
     font-size:10px;
     padding-right:10px;
+    padding-top:20px;
 }
 
 hr{
@@ -912,8 +906,6 @@ hr{
 }
 
 ul li{
-    padding:20px;
-    padding-left:30px;
     list-style-type:none;
     font-family:QUICKSAND;
 }
@@ -1039,10 +1031,12 @@ ul li{
 }*/
 
 h2{
-   padding-left:20px;
-   padding-top:20px;
+   padding-left:24px;
+   padding-top:43px;
    font-family:QUICKSAND;
+   font-size:18px;
 }
+
 
 .coloured-box{
     height:22px;
