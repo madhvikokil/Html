@@ -21,17 +21,16 @@ header .part1{
     height:60px;
 }
 
-header .part1 div{
-    display:inline-block;
-}
 .part1-left{
     
     width:300px;
     height:60px;
+    float:left;
 }
 
 .part1-right{
    
+    margin-top:0px;
     float:right;
    
 }
@@ -123,21 +122,20 @@ pre{
 .box h4{
     padding-top:20px;
     padding-left:20px;
-    width:132px;
-    height:38px;
-    
     color:white;
     font-family:QUICKSAND;
     font-size:16px;
+    font-weight:500;
 }
 
 .box p{
+    padding-top:20px;
     padding-left:20px;
-    width:130px;
     height:69px;
     font-style:bold;
     font-size:30px;
     font-family:QUICKSAND;
+    font-weight: 500;
 } 
 .box-left{
     height:110px;
@@ -148,13 +146,13 @@ pre{
 .box-right{
     height:110px;
     width:90px;
-     
+    text-align:center;
     float:right;
     
 }
 
 .box-right img{
-    margin:32px 23px;
+    padding-top:34px;
 }
 
 
@@ -168,9 +166,10 @@ pre{
 .box2 h4{
     padding-top:20px;
     padding-left:20px;
-    width:30%;
     font-family:QUICKSAND;
     font-size:16px;
+    font-weight:500;
+    color:white;
 }
 
 .box2 p{
@@ -180,12 +179,8 @@ pre{
     height:69px;
     font-size:30px;
     font-family:QUICKSAND;
+    font-weight: 500;
 }
-
-.box2-right img{
-    margin:32px 23px;
-}
-
 .box3{
     background-color:#8ac249;
     color:white;
@@ -196,8 +191,10 @@ pre{
 .box3 h4{
     padding-top:20px;
     padding-left:20px;
-    width:30%;
     font-size:16px;
+    font-family:QUICKSAND;
+    font-weight:500;
+    color:white;
 }
 
 .box3 p{
@@ -205,11 +202,10 @@ pre{
     padding-left:20px;
     font-style:bold;
     font-size:30px;
+    font-weight: 500;
+    font-family: QUICKSAND;
 }
 
-.box3-right img{
-    margin:32px 23px;
-}
 
 .box4{
     background-color:#2095f2;
@@ -221,8 +217,11 @@ pre{
 .box4 h4{
     padding-top:20px;
     padding-left:20px;
-    width:30%;
     font-size:16px;
+    font-size:16px;
+    font-weight:500;
+    color:white;
+    font-family: QUICKSAND;
 }
 
 .box4 p{
@@ -230,11 +229,8 @@ pre{
     padding-left:20px;
     font-style:bold;
     font-size:30px;
-}
-
-
-.box4-right img{
-    margin:32px 23px;
+    font-weight: 500;
+    font-family: QUICKSAND;
 }
 
 .yellow-box{
@@ -298,20 +294,19 @@ pre{
 .circle1outer{
     border-radius:50%;
     background-color:#8ac249;
-    width:111px;
-    height:111px;
+    width:107px;
+    height:107px;
     margin:0 auto;
+    padding:2px;
 
 }
 
 .circle1inner{
     border-radius:50%;
-    margin:8px -10px 25px 6px;
-    background-color:#f6efd2;
-    height:91px;
-    width:91px;
+   background-color:#f6efd2;
+    height:87px;
+    width:87px;
     margin:8px 8px;
-    display:inline-block;
     border:2px solid #ffffff;
 }
 
@@ -353,6 +348,7 @@ pre{
     text-align:center;
     padding-top:22px;
     padding-left:25px;
+    padding-right:25px;
 }
 
 /* Box 2 */
@@ -362,21 +358,11 @@ pre{
 .circle2outer{
     border-radius:50%;
     background-color:#fec006;
-    width:111px;
-    height:111px;
+    width:107px;
+    height:107px;
     margin:0 auto;
+    padding:2px;
 }
-
-.circle2inner{
-    border-radius:50%;
-    margin:8px -10px 25px 6px;
-    background-color:#f6efd2;
-    height:101px;
-    width:91px;
-    margin:0 auto;
-}
-
-
 
 .circledown22{
     color:#e1e2e9;
@@ -397,19 +383,10 @@ pre{
     border-radius:50%;
     background-color:#f5f5f5;
     margin:0 auto;
-    width:111px;
-    height:111px;
+    width:107px;
+    height:107px;
+    padding:2px;
 }
-
-.circle3inner{
-    border-radius:50%;
-    margin:8px -10px 25px 6px;
-    background-color:#f6efd2;
-    height:105px;
-    width:100px;
-    border-width:2px;
-}
-
 
 .circledown33{
     color:#e1e2e9;
@@ -428,20 +405,13 @@ pre{
 .circle4outer{
     border-radius:50%;
     background-color:#f5f5f5;
-    width:112px;
-    height:112px;
+    width:107px;
+    height:107px;
     border-width:100px;
     margin:0 auto;
+    padding:2px;
 }
 
-.circle4inner{
-    border-radius:50%;
-    margin:8px -10px 25px 6px;
-    background-color:#f6efd2;
-    height:105px;
-    width:100px;
-    border-width:2px;
-}
 .circledown44{
     color:#e1e2e9;
     font-weight:bold;
@@ -460,7 +430,7 @@ pre{
     height:20px;
     background-color: red;
     border-radius:20px;
-    margin-left:13px;
+    margin-left:21px;
     top:6px;
     text-align:center;
     color:white;
@@ -546,27 +516,23 @@ pre{
 
 /* Border ends */
 
-.progressbar-light-grey{
+.progressbar-white{
     background-color: #f5f5f5;
-    margin-left: 0px 24px;
     margin: 0 24px;
+    padding:2px;
+    height:5px;
+    margin-top:33px;
+
 }
 
-.progressbar-round-xlarge{
+.progressbar-radius{
     border-radius:16px;
     
 }
-
-.progressbar-container{
-    margin-top:33px;
-   
-   
-}
-
-.progressbar-blue{
+.progressbar-grey{
     background-color:#d3c89b;
     height:5px;
-    border:2px solid white;
+   
 }
 
 /* w4 starts here */
@@ -667,27 +633,28 @@ h5{
 }
 
 .row11{
-    padding-left:20px;
-    margin:20px;
-    font-style:bold;
-    text-align:left;
-    font-family:QUICKSAND;
+    padding-left: 20px;
+   
+    text-align: left;
+    font-family: QUICKSAND;
     border-bottom: 1px solid #ebecf2;
     color: #363f45;
-    padding-bottom:18px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    font-weight: bold;
     
 }
 
 .row21{
        
-        font-family: QUICKSAND;
-        padding-top: 14px;
-        border-bottom: 1px solid #ebecf2;
-        font-weight: bold;
-        padding-left: 20px;
-        font-size: 16px;
-        padding-bottom: 20px;
-        color: #363f45
+    font-family: QUICKSAND;
+    padding-top: 14px;
+    border-bottom: 1px solid #ebecf2;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #363f45
 }
 
 .more-right{
@@ -705,14 +672,6 @@ h5{
     width:30%;
 }
 
-.row25{
-    width:30%;
-}
-
-.row27{
-    width:30%;
-}
-
 .makeitcoloured td{
     background-color:#c8f1cc;
     color:#4bae4f;
@@ -723,14 +682,16 @@ td{
     font-family:LATO;
     font-size:14px;
     color:#919599;
+    font-weight:400;
 }
 
 .date{
     text-align:center;
+    padding-bottom:1px;
 }
 
 .table-menu{
-    padding-left:27px;
+    padding-left:40px;
 }
 
 .menu-status-bar{
@@ -881,72 +842,48 @@ ul li{
     display:inline;
 }
 
-
-.dollor{
-    width:95px;
-    height:88px;
-    float:right;
-    margin-top:-28px;
-}
-
-
-.graph{
-    width:95px;
-    height:112px;
-    float:right;
-}
-
-
-.checklist{
-    width:95px;
-    height:88px;
-    float:right;
-}
-
-.file{
-    width:95px;
-    height:88px;
-    float:right;
-}
-
 h2{
    padding-left:24px;
    padding-top:43px;
    font-family:QUICKSAND;
    font-size:18px;
    color: #363f45;
+   font-weight: 500;
 }
 
 
 .coloured-box{
-    height:22px;
     background-color:#5fccc1;
     bottom:21px;
     right:-11px;
     position: absolute;
     color:white;
+    padding:2px;
+    font-size:12px;
+    border-radius:13%;
 }
 
 
 .coloured-box:after{
     content: '';
     position: absolute;
-    left:14px;
+    left:15px;
     border: 7px solid transparent;
     border-top-color: #5fccc1;
     border-bottom: 0;
     margin-left: -8px;
-    top: 21px;
+    top: 16px;
 }
 
 .coloured-box2{
-    height:22px;
     background-color:#5fccc1;
     bottom:21px;
     position:absolute;
     right:-12px;
     color:white;
-    text-align:center;
+    padding:2px;
+    font-size:12px;
+    border-radius:13%;
     
 }
 
@@ -957,18 +894,21 @@ h2{
     border-top-color: #5fccc1;
     border-bottom: 0;
     margin-left: -8px;
-    top: 21px;
+    top: 16px;
+    right:8px;
     
 }
 
 .coloured-box3{
-    height:22px;
     background-color:#5fccc1;
     right:-12px;
     bottom:21px;
     position: absolute;
     color:white;
-    text-align:center;
+    font-size:12px;
+    padding:2px;
+    border-radius:13%;
+
 }
 
 .coloured-box3:after{
@@ -978,7 +918,8 @@ h2{
     border-top-color: #5fccc1;
     border-bottom: 0;
     margin-left: -8px;
-    top: 21px;
+    top: 16px;
+    right:8px;
 }
 footer{
     height:44px;
