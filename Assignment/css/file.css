@@ -5,31 +5,26 @@ body{
     margin:auto;
     background-color:#ebecf2;
     width:1198px;
-    
-
 }
+
 header .container{
-   
     margin:0 auto;
     position:relative; 
     background-color:grey;   
 }
 
 header .part1{
-   
     width:1200px;
     height:60px;
 }
 
 .part1-left{
-    
     width:300px;
     height:60px;
     float:left;
 }
 
 .part1-right{
-   
     margin-top:0px;
     float:right;
    
@@ -87,12 +82,21 @@ a.backstyle:hover{
     
 }
 
-pre{
-    margin-top:20px;
-    color:black;
-    text-align:left;
-    font-family:sans-serif;
+.photo{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color: red;
+    border-radius:20px;
+    margin-left:21px;
+    top:6px;
+    text-align:center;
+    color:white;
+    font-size:16px;
+    font-family:LATO;
 }
+
+/* Section 1 ends */
 
 .section2 .container{
     width:100%;
@@ -119,7 +123,7 @@ pre{
     float:left;
    
 }
-.box h4{
+.box-left h4{
     padding-top:20px;
     padding-left:20px;
     color:white;
@@ -128,11 +132,9 @@ pre{
     font-weight:500;
 }
 
-.box p{
+.box-left p{
     padding-top:20px;
     padding-left:20px;
-    height:69px;
-    font-style:bold;
     font-size:30px;
     font-family:QUICKSAND;
     font-weight: 500;
@@ -163,49 +165,12 @@ pre{
     
 }
 
-.box2 h4{
-    padding-top:20px;
-    padding-left:20px;
-    font-family:QUICKSAND;
-    font-size:16px;
-    font-weight:500;
-    color:white;
-}
-
-.box2 p{
-    padding-top:20px;
-    padding-left:20px;
-    font-style:bold;
-    height:69px;
-    font-size:30px;
-    font-family:QUICKSAND;
-    font-weight: 500;
-}
 .box3{
     background-color:#8ac249;
     color:white;
     font-family:QUICKSAND;
     float:left;
 }
-
-.box3 h4{
-    padding-top:20px;
-    padding-left:20px;
-    font-size:16px;
-    font-family:QUICKSAND;
-    font-weight:500;
-    color:white;
-}
-
-.box3 p{
-    padding-top:20px;
-    padding-left:20px;
-    font-style:bold;
-    font-size:30px;
-    font-weight: 500;
-    font-family: QUICKSAND;
-}
-
 
 .box4{
     background-color:#2095f2;
@@ -214,32 +179,12 @@ pre{
     float:left;
 }
 
-.box4 h4{
-    padding-top:20px;
-    padding-left:20px;
-    font-size:16px;
-    font-size:16px;
-    font-weight:500;
-    color:white;
-    font-family: QUICKSAND;
-}
-
-.box4 p{
-    padding-top:20px;
-    padding-left:20px;
-    font-style:bold;
-    font-size:30px;
-    font-weight: 500;
-    font-family: QUICKSAND;
-}
-
 .yellow-box{
     background-color:#f1b606;
 }
 
 .pink-box{
     background-color:#dd1c5d;
-
 }
 
 .green-box{
@@ -249,7 +194,8 @@ pre{
 .blue-box{
     background-color:#1e8de6;
 }
-/* Section 2 */ 
+
+/* Section 2 ends */ 
 
 .section3 .container{
     width:100%;
@@ -257,7 +203,6 @@ pre{
     background-color:#ebecf2;
     margin-top:12px;
 }
-
 
 .part3 h2{
     margin:0 auto;
@@ -283,13 +228,6 @@ pre{
     padding:28px 0px 0px 0px;
 }
 
-.boxb2{
-
-    height:166px;
-    width:270px;
-    border-bottom:2px solid #ebecf2;
-    
-}
 
 .circle1outer{
     border-radius:50%;
@@ -338,7 +276,6 @@ pre{
     float:right;
     padding:14px 10px 0px 0px;
     font-family:QUICKSAND;
-    font-style:bold;
 }
 
 
@@ -348,12 +285,10 @@ pre{
     text-align:center;
     padding-top:22px;
     padding-left:25px;
-    padding-right:25px;
+    padding-right:32px;
 }
 
 /* Box 2 */
-
-
 
 .circle2outer{
     border-radius:50%;
@@ -371,13 +306,9 @@ pre{
     float:right;
     padding:14px 10px 0px 0px;
     font-family:QUICKSAND;
-    font-style:bold;
 }
 
-
 /* Box 3 */
-
-
 
 .circle3outer{
     border-radius:50%;
@@ -395,12 +326,10 @@ pre{
     float:right;
     padding:14px 10px 0px 0px;
     font-family:QUICKSAND;
-    font-style:bold;
+
 }
 
 /* Box 4 */
-
-
 
 .circle4outer{
     border-radius:50%;
@@ -424,23 +353,7 @@ pre{
 
 /*4 Boxes over */
 
-.photo{
-    position:absolute;
-    width:20px;
-    height:20px;
-    background-color: red;
-    border-radius:20px;
-    margin-left:21px;
-    top:6px;
-    text-align:center;
-    color:white;
-    font-size:16px;
-    font-family:LATO;
-}
-
-
-
-/* Section 2 */
+/* Section 3  ends */
 
 #more1{
     float:right;
@@ -478,43 +391,7 @@ pre{
     margin-top:21px;
 }
 
-#circle2{
-    padding-top:50px;
-    margin-top:40px;
-    margin-left:100px;
-    padding-left:50px;
-    border-radius:80%;
-    border:1px groove black;
-    
-}
-
-#circle3{
-    padding-top:50px;
-    margin-top:40px;
-    margin-left:100px;
-    padding-left:50px;
-    border-radius:80%;
-    border:1px groove black;
-    
-}
-
-#circle4{
-    padding-top:50px;
-    margin-top:40px;
-    margin-left:100px;
-    padding-left:50px;
-    border-radius:80%;
-    border:1px groove black;
-    
-}
-/* Section 3 */
-
-.back{
-    border-style:round-xlarge;
-    background-color:lightblue!important;
-}
-
-/* Border ends */
+/* Progress Bar */
 
 .progressbar-white{
     background-color: #f5f5f5;
@@ -534,13 +411,10 @@ pre{
     height:5px;
    
 }
-
-/* w4 starts here */
+/* Border ends (Progress Bar)*/
 
 .bar-outer{
-   
-    background-color:#e1e2e6;
-
+   background-color:#e1e2e6;
 }
 
 .bar-radius{
@@ -556,10 +430,9 @@ pre{
     background-color:#5fccc1;;
 }
 
+/* Section 4 ends */
 .section4 .container{
     background-color:#ebecf2;
-    margin-top:71px;
-    height:368px;
     display:inline;
     
 }
@@ -592,25 +465,7 @@ pre{
     padding-left:10px;
     font-family:sans-serif;
     color:grey;
-    
 }
-
-.block1 p{
-
-    font-family:sans-serif;
-    font-style: bold;
-    
-}
-h5{
-    font-family: sans-serif;
-}
-
-#feb2{
-
-    padding-right:50px;
-
-}
-
 
 .checkbox1{
     height:17px;
@@ -626,6 +481,7 @@ h5{
 .table1 td {
     border-bottom: 1px solid #ebecf2;
 }
+
 .table2{
     width:564px;
     height:256px;
@@ -634,21 +490,18 @@ h5{
 
 .row11{
     padding-left: 20px;
-   
     text-align: left;
     font-family: QUICKSAND;
     border-bottom: 1px solid #ebecf2;
     color: #363f45;
-    padding-bottom: 18px;
     font-size: 16px;
     font-weight: bold;
     
 }
 
 .row21{
-       
     font-family: QUICKSAND;
-    padding-top: 14px;
+    padding-top: 20px;
     border-bottom: 1px solid #ebecf2;
     font-weight: bold;
     padding-left: 20px;
@@ -699,149 +552,6 @@ td{
     width:564px;
 }
 
-/* Section 4 */
-
-#borderlast1{
-    border:10px groove grey;
-    border-radius:10px;
-}
-
-#id1{
-    color:grey;
-    font-family: sans-serif;
-    padding-bottom:20px;
-}
-
-#id1 li{
-    list-style-type:none;
-    display:inline;
-    padding-bottom:2px;
-    padding-top:5px;
-    padding-left:22px;
-}
-
-#id2{
-    color:#37d647;
-    font-family: sans-serif;
-    background-color: #b6f0bc;
-    padding-top:20px;
-    padding-bottom:20px;
-    
-}
-
-#id2 li{
-    list-style-type:none;
-    display:inline;
-    padding-bottom:2px;
-    padding-top:5px;
-    padding-left:22px;
-    
-   
-}
-
-#id3{
-    color:grey;
-    font-family: sans-serif;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:10px;
-    
-}
-
-#id3 li{
-    list-style-type:none;
-    display:inline;
-    padding-bottom:2px;
-    padding-top:5px;
-    padding-left:22px;
-}
-
-#id4{
-    color:grey;
-    font-family: sans-serif;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:10px;
-    
-    
-}
-
-#id4 li{
-    list-style-type:none;
-    display:inline;
-    padding-bottom:2px;
-    padding-top:5px;
-    padding-left:22px;
-}
-
-#id5{
-    color:grey;
-    font-family: sans-serif;
-    padding-top:20px;
-    padding-bottom:10px;
-    padding-left:10px;
-    
-    
-}
-
-#id5 li{
-    list-style-type:none;
-    display:inline;
-    padding-left:10px;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-ul li{
-    list-style-type:none;
-    font-family:QUICKSAND;
-}
-
-#leftid1{
-    padding:20px;
-}
-
-#leftid2{
-    padding:20px;
-}
-
-#leftid3{
-    padding:20px;
-}
-
-#leftid1{
-    list-style-type:none;
-    margin-left:-10px;
-    padding-left:20px;
-    padding:33px;
-}
-
-#leftid1 li{
-    display:inline;
-}
-
-#leftid2{
-    list-style-type:none;
-    margin-left:-10px;
-    padding-left:20px;
-    padding:33px;
-}
-
-#leftid2 li{
-    display:inline;
-}
-
-#leftid3{
-    list-style-type:none;
-    margin-left:-10px;
-    padding-left:20px;
-    padding:33px;
-}
-
-#leftid3 li{
-    display:inline;
-}
-
 h2{
    padding-left:24px;
    padding-top:43px;
@@ -851,7 +561,6 @@ h2{
    font-weight: 500;
 }
 
-
 .coloured-box{
     background-color:#5fccc1;
     bottom:21px;
@@ -860,9 +569,8 @@ h2{
     color:white;
     padding:2px;
     font-size:12px;
-    border-radius:13%;
+    border-radius:3px;
 }
-
 
 .coloured-box:after{
     content: '';
@@ -921,6 +629,10 @@ h2{
     top: 16px;
     right:8px;
 }
+
+/* Section 5 ends*/
+/* Section ends */
+
 footer{
     height:44px;
     margin-top:67px;
@@ -936,8 +648,3 @@ footer p{
     padding-top:20px;
     font-family: LATO;
 }
-
-hr{
-    color:grey;
-}
-

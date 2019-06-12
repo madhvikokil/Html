@@ -23,7 +23,7 @@ time, mark, audio, video {
     border:0;
     outline:0;
     font-size:100%;
-    vertical-align:baseline;
+    vertical-align:middle;
     background:transparent;
 }
 
@@ -85,6 +85,7 @@ abbr[title], dfn[title] {
 table {
     border-collapse:collapse;
     border-spacing:0;
+    vertical-align:middle;
 }
 
 /* change border colour to suit your needs */
