@@ -8,37 +8,31 @@ body{
 }
 
 header .container{
-    margin:0 auto;
-    position:relative; 
     background-color:grey;   
 }
 
 header .part1{
-    width:1200px;
     height:60px;
 }
 
 .part1-left{
     width:300px;
-    height:60px;
     float:left;
 }
 
 .part1-right{
-    margin-top:0px;
     float:right;
-   
 }
 
 #logo-menu{
-    margin-top:9px;
     display:inline-block;
     margin-left:24px;
+    margin-top:6px;
 }
 
 .menu-icon{
-    padding-bottom: 11px;
-    padding-left: 60px;
+    float:right;
+    margin-top:20px;
 }
 #other-logo{
     display:inline-block;
@@ -72,10 +66,7 @@ a.backstyle:hover{
 
 }
 .header2{
-    list-style-type:none;
     margin-top:16px;
-    text-align: right;
-    
 }
 .header2 li{
     display:inline;
@@ -99,9 +90,8 @@ a.backstyle:hover{
 /* Section 1 ends */
 
 .section2 .container{
-    width:100%;
     background-color:#ebecf2;
-    height:206px;
+
 }
 .container .part2{
     
@@ -232,20 +222,21 @@ a.backstyle:hover{
 .circle1outer{
     border-radius:50%;
     background-color:#8ac249;
-    width:107px;
-    height:107px;
+    width:111px;
+    height:111px;
     margin:0 auto;
-    padding:2px;
+    padding:10px;
+    box-sizing:border-box;
 
 }
 
 .circle1inner{
     border-radius:50%;
-   background-color:#f6efd2;
+    background-color:#f6efd2;
     height:87px;
     width:87px;
-    margin:8px 8px;
     border:2px solid #ffffff;
+
 }
 
 .percent1{
@@ -284,7 +275,7 @@ a.backstyle:hover{
     font-size:16px;
     text-align:center;
     padding-top:22px;
-    padding-left:25px;
+    padding-left:32px;
     padding-right:32px;
 }
 
@@ -293,10 +284,12 @@ a.backstyle:hover{
 .circle2outer{
     border-radius:50%;
     background-color:#fec006;
-    width:107px;
-    height:107px;
+    width:111px;
+    height:111px;
     margin:0 auto;
-    padding:2px;
+    padding:10px;
+    box-sizing:border-box;
+
 }
 
 .circledown22{
@@ -314,9 +307,12 @@ a.backstyle:hover{
     border-radius:50%;
     background-color:#f5f5f5;
     margin:0 auto;
-    width:107px;
-    height:107px;
-    padding:2px;
+    width:111px;
+    height:111px;
+    padding:10px;
+    box-sizing:border-box;
+
+    
 }
 
 .circledown33{
@@ -334,11 +330,11 @@ a.backstyle:hover{
 .circle4outer{
     border-radius:50%;
     background-color:#f5f5f5;
-    width:107px;
-    height:107px;
-    border-width:100px;
+    width:111px;
+    height:111px;
     margin:0 auto;
-    padding:2px;
+    padding:10px;
+    box-sizing:border-box;
 }
 
 .circledown44{
@@ -427,36 +423,30 @@ a.backstyle:hover{
 }
 
 .bar-inner{
-    background-color:#5fccc1;;
+    background-color:#5fccc1;
+   
 }
 
 /* Section 4 ends */
 .section4 .container{
     background-color:#ebecf2;
-    display:inline;
     
 }
-
-.container .part4{
-    padding-top:71px;
-    width:100%;
-    height:395px;
+.part4{
+    margin-top:71px;
+    border: 1px solid #ebecf2;
 }
+
 .block1{
-    height:339px;
-    width:564px;
     background-color:whitesmoke;
     margin-left:24px;
     float:left;
 }
 
 .block2{
-    
-    height:339px;
-    width:564px;
     background-color:whitesmoke;
-    margin-left:24px;
-    float:left;
+    margin-right:20px;
+    float:right;
 }
 
 .block1 p{
@@ -474,7 +464,7 @@ a.backstyle:hover{
 
 .table1{
     width:564px;
-    height:339px;
+    float:left;
     
 }
 
@@ -484,8 +474,8 @@ a.backstyle:hover{
 
 .table2{
     width:564px;
-    height:256px;
     margin-top:35px;
+    float:right;
 }
 
 .row11{
@@ -506,7 +496,7 @@ a.backstyle:hover{
     font-weight: bold;
     padding-left: 20px;
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom: 13px;
     color: #363f45
 }
 
@@ -523,6 +513,8 @@ a.backstyle:hover{
 
 .row23{
     width:30%;
+    padding-top: 26px;
+    padding-bottom: 46px;
 }
 
 .makeitcoloured td{
@@ -540,7 +532,7 @@ td{
 
 .date{
     text-align:center;
-    padding-bottom:1px;
+    vertical-align:middle;
 }
 
 .table-menu{
@@ -635,7 +627,7 @@ h2{
 
 footer{
     height:44px;
-    margin-top:67px;
+    margin-top:111px;
     background-color:grey;
     text-align:right;
     color:white;
@@ -647,4 +639,7 @@ footer p{
     padding-right:10px;
     padding-top:20px;
     font-family: LATO;
+}
+.clear-back{
+    clear:both;
 }
